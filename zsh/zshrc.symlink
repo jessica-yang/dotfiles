@@ -1,21 +1,10 @@
-export ZSH="$HOME/.dotfiles"
+export ZSH="$HOME/.dotfiles/oh-my-zsh"
 
 # zsh theme
 ZSH_THEME="robbyrussell"
 
-# all of our zsh files
-typeset -U config_files
-config_files=($ZSH/**/*.zsh)
-
 # Initial Start Directory 
 cd ~/Home/dxt-repos
-
-# Launch Charles Proxy
-hiCharles() {
-  export http_proxy=http://0.0.0.0:8888
-  export https_proxy=http://0.0.0.0:8888
-  open -a Charles
-}
 
 # Kill Charles Proxy
 byeCharles() {
@@ -25,3 +14,5 @@ byeCharles() {
 
 # Load NVM
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
+
+source $HOME/.dotfiles/oh-my-zsh/oh-my-zsh.sh

@@ -1,0 +1,18 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  "editor.gotoLocation.multiple": "goto",
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.autoFixOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  "markdown.extension.toc.githubCompatibility": true,
+  "workbench.startupEditor": "newUntitledFile"
+}
