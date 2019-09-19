@@ -17,8 +17,13 @@ byeCharles() {
 
 #Aliases
 alias list_symlinks='ls -la $HOME | grep "\->"'
-alias update_symlinks='cd ~/.dotfiles; script/bootstrap; git add -u; git commit -m "Update"; git push origin master; source ~/.zshrc'
+alias update_symlinks='cd ~/.dotfiles; \
+                        script/bootstrap; \
+                        git add -u; \
+                        git commit -m "Update"; \
+                        git push origin master; \ 
+                        source ~/.zshrc'
 
-alias testing123='echo 678'
+alias testing123='echo stuff'
 
 source $HOME/.dotfiles/oh-my-zsh/oh-my-zsh.sh
