@@ -15,10 +15,10 @@ byeCharles() {
 # Load NVM
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 
-source $HOME/.dotfiles/oh-my-zsh/oh-my-zsh.sh
-
 #Aliases
 alias list_symlinks='ls -la $HOME | grep "\->"'
 alias update_symlinks='cd ~/.dotfiles; script/bootstrap; git add -u; git commit -m "Update"; git push origin master'
 
-alias testing123='echo 123'
+alias testing123='echo 4'
+
+source $HOME/.dotfiles/oh-my-zsh/oh-my-zsh.sh
