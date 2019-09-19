@@ -155,9 +155,9 @@ install_dotfiles () {
   done
 }
 
-setup_gitconfig
-setup_zsh
-install_dotfiles
+# setup_gitconfig
+# setup_zsh
+# install_dotfiles
 
 # If we're on a Mac, let's install and setup homebrew.
 # if [ "$(uname -s)" == "Darwin" ]
