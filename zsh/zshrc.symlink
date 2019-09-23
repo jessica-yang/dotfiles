@@ -21,5 +21,5 @@ alias update_symlinks='cd ~/.dotfiles; \
                         script/bootstrap; \
                         git add -u; \
                         git commit -m "Update"; \
-                        git push origin master; \ 
-                        source ~/.zshrc'
+                        git push origin master;
+                        source ~/.zshrc'  
