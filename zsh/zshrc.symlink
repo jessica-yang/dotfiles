@@ -22,6 +22,6 @@ alias update_symlinks='cd ~/.dotfiles; \
                         git add -u; \
                         git commit -m "Update"; \
                         git push origin master; \ 
-                        source $ZSH/oh-my-zsh.sh'
+                        source ~/.zshrc'
 
 source $ZSH/oh-my-zsh.sh
